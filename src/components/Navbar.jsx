@@ -9,6 +9,7 @@ function Navbar() {
   const [isMobileOpen, setIsMobileOpen] = useState(false)
   const { cartCount, setIsCartOpen } = useContext(CartContext)
   const location = useLocation()
+  const isHomePage = location.pathname === '/'
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50)
@@ -20,8 +21,11 @@ function Navbar() {
     setIsMobileOpen(false)
   }, [location])
 
+  // Only show transparent navbar on home page when not scrolled
+  const showSolid = isScrolled || !isHomePage
+
   return (
-    <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${showSolid ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <Link to="/" className="navbar-brand">
           <img src="/logo.png" alt="FAZORA Trading Co." className="navbar-logo" />

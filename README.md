@@ -1,16 +1,64 @@
-# React + Vite
+# FAZORA Trading Co. 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **"Your Satisfaction, Our Priority"**
 
-Currently, two official plugins are available:
+Premium e-commerce website for **FAZORA Trading Co.**, located at Al Balad, Qabil Street, Gold Market, Jeddah, Saudi Arabia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Categories
 
-## React Compiler
+- **Fashion & Dress** — Trending styles for every occasion
+- **Kitchen Wares** — Premium tools for your kitchen
+- **Electronics** — Latest gadgets & devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern, premium responsive design
+- 🛒 Shopping cart with quantity management
+- 📱 WhatsApp ordering integration (+91 811 394 5385)
+- 🔍 Product search & filtering
+- 📂 Category-based browsing
+- ⭐ Product ratings & reviews
+- 🗺️ Store location with Google Maps
+- 📱 Fully responsive for mobile, tablet & desktop
+- 🚀 Optimized for Vercel deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **React Router** (SPA routing)
+- **React Icons**
+- **Vanilla CSS** (custom design system)
+- **Vercel** (deployment)
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🌐 Deployment
+
+This project is configured for **Vercel** deployment. Simply connect your GitHub repository to Vercel and it will auto-detect the Vite framework.
+
+## 👤 Author
+
+- **GitHub**: [@ameennm](https://github.com/ameennm)
+- **Email**: muhammedmusthafaameennm@gmail.com
+
+## 📍 Store Location
+
+**FAZORA Trading Co.**  
+Al Balad, Qabil Street  
+Gold Market, Jeddah  
+Saudi Arabia
+
+---
+
+© 2026 FAZORA Trading Co. All rights reserved.
