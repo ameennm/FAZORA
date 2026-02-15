@@ -224,7 +224,12 @@
 }
 
 @media (max-width: 480px) {
-    .brand-text {
+    .brand-tagline {
         display: none;
+    }
+
+    .brand-name {
+        font-size: 1.1rem;
+        color: var(--fazora-red) !important;
     }
 }
